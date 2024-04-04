@@ -62,6 +62,6 @@ if __name__ == "__main__":
     path_pile_ner = 'train.json'
     data = load_data(path_pile_ner)
     processed_data = process_data(data)
-    save_data_to_file(processed_data, 'pilener_train.json')
+    save_data_to_file(processed_data, 'train.json')
 
     print("dataset size:", len(processed_data))
